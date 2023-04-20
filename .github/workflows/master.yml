@@ -15,4 +15,5 @@ jobs:
         server: ftp.lorvenhost.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        protocol: ftp
+        protocol: ftps
+        security: loose
