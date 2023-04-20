@@ -15,5 +15,3 @@ jobs:
         server: www.lorvenhost.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-	
-	
